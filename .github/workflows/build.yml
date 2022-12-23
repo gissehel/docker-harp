@@ -3,7 +3,7 @@ name: 'build'
 on:
     push:
         branches:
-            - *
+            - '**'
 
     schedule:
         - cron: "20 02 * * 5"
